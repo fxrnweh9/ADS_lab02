@@ -1,5 +1,6 @@
 import Test.TestMyArrayList;
 import Test.TestMyLinkedList;
+import Test.TestMyQueue;
 import Test.TestMyStack;
 import models.MyArrayList;
 
@@ -35,6 +36,10 @@ public class Main {
                     break;
                 case 3:
                     TestMyStack.run();
+                    System.out.println();
+                    break;
+                case 4:
+                    TestMyQueue.run();
                     System.out.println();
                     break;
                 case 0:
