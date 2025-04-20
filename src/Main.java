@@ -1,5 +1,6 @@
 import Test.TestMyArrayList;
 import Test.TestMyLinkedList;
+import Test.TestMyStack;
 import models.MyArrayList;
 
 import java.util.Scanner;
@@ -32,16 +33,16 @@ public class Main {
                     TestMyLinkedList.run();
                     System.out.println();
                     break;
+                case 3:
+                    TestMyStack.run();
+                    System.out.println();
+                    break;
                 case 0:
                     System.out.println("Exiting...");
                     return;
                 default:
                     System.out.println("invalid input");
             }
-
-
-
-
         }
     }
 }
