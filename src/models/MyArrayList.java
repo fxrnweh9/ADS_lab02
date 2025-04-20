@@ -19,8 +19,6 @@ public class MyArrayList<T> implements MyList<T> {
         length = 0;
     }
 
-
-
     @Override
     public Iterator<T> iterator() {
         return new Iterator<T>() {
